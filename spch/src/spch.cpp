@@ -45,18 +45,9 @@ int main(int argc, const char * argv[]) {
 //		cout << x << endl;
 //	}
 	int wordCounter = 1;
-	char buffer2[80];
 //	int lineCounter = 1;
 	//'.' || ',' || '/' || '!' || '?' || '$' || '~'
 	while(!mFile.eof()) {
-		mFile.getline(buffer2, 80);
-		char buffer3[30];
-		for (int i = 0; i < 10; i++){
-			buffer2[1] >> buffer3;
-		}
-		cout << "READ IN LINE" << endl;
-		cout << wordCounter << endl;
-		wordCounter++;
 	}
 	delete []dictStr;
 }
